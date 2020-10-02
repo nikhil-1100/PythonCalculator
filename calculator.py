@@ -1,4 +1,7 @@
-# Program make a simple calculator
+# Program to make a Python 'S calculator'
+
+
+#(S stands for Simple)
 
 # This function adds two numbers
 def add(x, y):
@@ -17,11 +20,8 @@ def divide(x, y):
     return x / y
 
 
-print("Select operation.")
-print("1.Add")
-print("2.Subtract")
-print("3.Multiply")
-print("4.Divide")
+print("Select an operation from following :")
+print("1.Add \n 2. Subtract \n 3. Multiply \n 4. Divide")
 
 while True:
     # Take input from the user
